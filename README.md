@@ -1,5 +1,4 @@
 # FS_Task5
-Capstone Project &amp; Deployment
 # Capstone Portal
 
 A professional PHP capstone project built for deployment on free shared hosting.
