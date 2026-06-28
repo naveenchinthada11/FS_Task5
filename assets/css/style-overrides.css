@@ -1,0 +1,58 @@
+/* Additional polished styles for dashboard and form elements */
+.dashboard-grid .card,
+.panel {
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+.dashboard-grid .card:hover,
+.panel:hover,
+.course-card:hover,
+.form-panel:hover,
+.admin-panel:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 28px 60px rgba(15, 23, 42, .14);
+}
+.job-meta button {
+    min-width: 120px;
+}
+.job-description {
+    font-size: .98rem;
+    line-height: 1.7;
+}
+.auth-card {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: 1.1fr 0.9fr;
+    margin-top: 2rem;
+    align-items: stretch;
+}
+.auth-copy {
+    background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
+    border: 1px solid rgba(148, 163, 184, .22);
+    border-radius: 1.2rem;
+    padding: 1.75rem;
+}
+.auth-copy h2 {
+    margin-bottom: 0.5rem;
+    color: #0f172a;
+}
+.auth-copy p {
+    color: #475569;
+}
+.auth-highlights {
+    list-style: none;
+    margin-top: 1rem;
+    display: grid;
+    gap: 0.6rem;
+}
+.auth-highlights li {
+    padding: 0.7rem 0.9rem;
+    border-radius: 0.8rem;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    color: #334155;
+}
+@media (max-width: 840px) {
+    .auth-card {
+        grid-template-columns: 1fr;
+    }
+}
